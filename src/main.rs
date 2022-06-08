@@ -39,7 +39,7 @@ fn todo_list(TodoListProps { todos }: &TodoListProps) -> Html {
 fn app() -> Html {
     html! {
         <>
-            <section class="todo-app">
+            <section class="todoapp">
                 <header class="header">
                     <h1>{ "todos" }</h1>
                     <input autofocus={true} autocomplete="off" placeholder="What needs to be done?" class="new-todo" />
